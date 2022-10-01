@@ -1,0 +1,38 @@
+.address {
+    font-style: normal;
+}
+
+.address__list .address__item {
+    margin-bottom: 9px;
+}
+
+.address__maps {
+   color: var(--white-color);
+
+    line-height: 1.71;
+
+    text-decoration: none;
+
+    transition: color var(--animation);
+
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
+}
+
+
+
+.address__mailto-tel {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    text-decoration: none;
+
+    transition: color var(--animation);
+
+    &:hover,
+    &:focus {
+    color: #2196F3;
+}
+}
+
