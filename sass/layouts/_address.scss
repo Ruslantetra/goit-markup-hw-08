@@ -1,10 +1,19 @@
 .address {
     font-style: normal;
+
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+     }   
 }
 
 .address__list .address__item {
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;
+    }
 }
+
 
 .address__maps {
    color: var(--white-color);
