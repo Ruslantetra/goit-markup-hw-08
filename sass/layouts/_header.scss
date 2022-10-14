@@ -28,6 +28,12 @@
      } 
 }
 
+.header__item:not(:last-child) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-bottom: 10px; 
+    }
+}
+
 .header__contacts .header__item + .header__item {
     @media screen and (min-width: 1200px) {
         margin-left: 30px;
@@ -72,7 +78,7 @@
     @media screen and (min-width: 768px) and (max-width: 1199px) {
         display: block;
        padding-top: 18px;
-       margin-bottom: 10px;
+    //    margin-bottom: 10px;
     }
 
 }
